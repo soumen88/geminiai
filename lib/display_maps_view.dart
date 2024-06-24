@@ -44,7 +44,7 @@ class _DisplayMapsViewState extends State<DisplayMapsView> with WidgetsBindingOb
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Weather'),
+          title: Text('Location'),
         ),
         body: FutureBuilder(
           future: _getUserLocation(),
